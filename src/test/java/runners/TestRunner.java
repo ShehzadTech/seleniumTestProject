@@ -5,7 +5,7 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
-        features = "src/test/resources/features/addToCart.feature",
+        features = "src/test/resources/features",
         glue = "stepdefs",
         plugin = {
                 "pretty",
